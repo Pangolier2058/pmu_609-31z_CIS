@@ -64,7 +64,7 @@ def send_service(message):
         "💳 Оптимизация и оплата налогов\n"
         "📈 Расчет бизнес-бюджета"
     )
-    bot.send_message(message.chat.id, services_text, parse_mode='Markdown')
+    bot.send_message(message.chat.id, services_text)
 
 
 @bot.message_handler(content_types=['text'])
